@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx remix build && tsc -b && vite build",  
+    "build": "npx remix build && tsc -b && vite build",
+    "remix:build": "npx remix build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
